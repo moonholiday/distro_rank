@@ -1,1 +1,57 @@
 env/
+# Django
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+db.sqlite3
+media/
+
+# Virtual environment
+venv/
+.venv/
+env/
+.vscode/
+
+# Compiled Python files
+*.pyc
+*.pyo
+
+# Editor-specific
+.idea/
+*.swp
+*.swo
+
+# Node.js
+node_modules/
+build/
+
+# React
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Compiled JSX
+*.jsx
+
+# Environment variables
+.env
+
+# Compiled CSS
+*.css
+
+# Compiled SASS
+*.scss
+
+# Compiled TypeScript
+*.tsbuildinfo
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Custom
+distro-app/
+
