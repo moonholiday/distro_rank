@@ -47,8 +47,8 @@ A full-stack web app to rank and compare Linux distributions using React, Django
    - Run server: `python manage.py runserver`
 3. Set up React frontend:
    - Go to frontend dir: `cd frontend`
-   - Install deps: `yarn install`
-   - Run dev server: `yarn start`
+   - Install deps: `yarn`
+   - Run dev server: `yarn dev`
 
 ## Future
 
