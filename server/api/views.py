@@ -1,8 +1,8 @@
-from django.shortcuts import render
-from django.http import HttpResponse
+from rest_framework import viewsets
+from .models import LinuxDistribution
+from .serializers import LinuxDistributionSerializer
 
-# Create your views here.
 
-
-def main(request):
-    return HttpResponse("hello")
+class LinuxDistributionViewSet(viewsets.ModelViewSet):
+    queryset = LinuxDistribution.objects.all()
+    serializer_class = LinuxDistributionSerializer
